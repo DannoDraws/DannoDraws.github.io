@@ -1,0 +1,108 @@
+body {
+    background-image: url("gp2.jpg");
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dannoheader {
+    background: black;
+    padding-left: 10px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.underheader {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.navigation {
+    font-family: sans-serif                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.navli {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.hover-effect {
+    position: relative;
+}
+
+.hover-effect::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 2px;
+    width: 0;
+    background-color: rgb(0, 0, 255);
+    transition: width 0.25s ease-out;
+}
+
+.hover-effect:hover::after {
+    width: 100%;
+}
+
+.fanart-align {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.fanart-text {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.scale-hover-effect:hover {
+    transition: transform 0.2s ease;
+    transform: scale(1.05);
+}
+
+.drop-shadow {
+    box-shadow: 0 5px 100px rgba(0, 0, 0, 0.2);
+}
+
+.latestvid-div {
+    padding-left: 2%;
+
+}
+
+.latest-video {
+    position: inline-block;
+    width: 854px;
+    height: 480px;
+}
+
+.latestvidtext {
+    position: inline-block;
+    width: 35%;
+    height: 35%;
+}
+
