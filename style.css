@@ -1,35 +1,9 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-}
-
-@keyframes diagonalScroll {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 200% 200%;
-    }
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -100;
     background-image: url("gp2.jpg");
-    background-size: auto;
-    background-repeat: repeat;
-    animation: diagonalScroll 60s linear infinite;
-    transform: scale(1);
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .dannoheader {
     background: black;
